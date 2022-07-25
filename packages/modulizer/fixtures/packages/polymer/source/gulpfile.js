@@ -34,7 +34,7 @@ const COMPILED_DIR = path.join(DIST_DIR, 'compiled');
 const POLYMER_LEGACY = 'polymer.html';
 const POLYMER_ELEMENT = 'polymer-element.html';
 
-const {PolymerProject, HtmlSplitter} = require('polymer-build');
+const {PolymerProject, HtmlSplitter} = require('prax-build');
 
 const {Transform} = require('stream');
 

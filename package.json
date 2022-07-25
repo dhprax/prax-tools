@@ -1,10 +1,10 @@
 {
-  "name": "polymer-tools",
+  "name": "prax-tools",
   "private": true,
   "description": "Polymer tooling monorepo!",
   "homepage": "https://github.com/Polymer/tools",
-  "repository": "https://github.com/Polymer/tools",
-  "bugs": "https://github.com/Polymer/tools/issues",
+  "repository": "https://github.com/dhprax/prax-tools",
+  "bugs": "https://github.com/Polymer/dhprax/prax-tools",
   "license": "BSD-3-Clause",
   "author": "The Polymer Project Authors",
   "scripts": {

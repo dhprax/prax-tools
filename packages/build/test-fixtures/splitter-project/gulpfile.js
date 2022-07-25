@@ -5,7 +5,7 @@ const fs = require('fs-extra');
 
 logging.setVerbose();
 
-const polymer = require('../../lib/polymer-build');
+const polymer = require('../../lib/prax-build');
 
 
 const PolymerProject = polymer.PolymerProject;
