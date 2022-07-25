@@ -1,6 +1,6 @@
 {
   "name": "prax-cli",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "A commandline tool for Polymer projects",
   "homepage": "https://github.com/Polymer/tools/tree/master/packages/cli",
   "repository": "github:dhprax/prax-tools",
