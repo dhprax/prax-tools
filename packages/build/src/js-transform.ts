@@ -84,6 +84,7 @@ const babelTransformEs2021 = [
 
 const babelTransformEs2022 = [
   require('@babel/plugin-proposal-class-properties'),
+  require('@babel/plugin-proposal-private-methods'),
 ];
 
 // Loading this plugin removes inlined Babel helpers.
