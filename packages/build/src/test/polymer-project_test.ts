@@ -14,7 +14,7 @@
 
 import {assert} from 'chai';
 import {Analyzer, FsUrlLoader, FsUrlResolver, PackageRelativeUrl, ResolvedUrl} from 'prax-analyzer';
-import {Bundle} from 'polymer-bundler/lib/bundle-manifest';
+import {Bundle} from 'prax-bundler/lib/bundle-manifest';
 
 import File = require('vinyl');
 import * as path from 'path';

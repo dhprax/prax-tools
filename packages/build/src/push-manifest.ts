@@ -14,8 +14,8 @@
 
 import * as path from 'path';
 import {Analyzer, FsUrlResolver, Import, PackageRelativeUrl, ResolvedUrl} from 'prax-analyzer';
-import {buildDepsIndex} from 'polymer-bundler/lib/deps-index';
-import {ProjectConfig} from 'polymer-project-config';
+import {buildDepsIndex} from 'prax-bundler/lib/deps-index';
+import {ProjectConfig} from 'prax-project-config';
 
 import File = require('vinyl');
 

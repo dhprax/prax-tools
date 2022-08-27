@@ -15,7 +15,7 @@
 import * as cssSlam from 'css-slam';
 import * as gulpif from 'gulp-if';
 import * as logging from 'plylog';
-import {JsCompileTarget, ModuleResolutionStrategy} from 'polymer-project-config';
+import {JsCompileTarget, ModuleResolutionStrategy} from 'prax-project-config';
 import {Transform} from 'stream';
 import * as vinyl from 'vinyl';
 

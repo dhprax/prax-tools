@@ -14,7 +14,7 @@
 
 import * as babelCore from '@babel/core';
 import * as babylon from 'babylon';
-import {JsCompileTarget, ModuleResolutionStrategy} from 'polymer-project-config';
+import {JsCompileTarget, ModuleResolutionStrategy} from 'prax-project-config';
 import * as uuid from 'uuid/v1';
 
 import {resolveBareSpecifiers} from './babel-plugin-bare-specifiers';

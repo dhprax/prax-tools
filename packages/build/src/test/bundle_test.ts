@@ -14,8 +14,8 @@
 
 import {assert} from 'chai';
 import {FsUrlResolver, PackageRelativeUrl, ResolvedUrl} from 'prax-analyzer';
-import {Bundle} from 'polymer-bundler';
-import {ProjectConfig, ProjectOptions} from 'polymer-project-config';
+import {Bundle} from 'prax-bundler';
+import {ProjectConfig, ProjectOptions} from 'prax-project-config';
 
 import File = require('vinyl');
 import * as dom5 from 'dom5/lib/index-next';

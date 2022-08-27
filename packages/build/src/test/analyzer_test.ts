@@ -15,7 +15,7 @@
 import {assert} from 'chai';
 import * as path from 'path';
 import File = require('vinyl');
-import {ProjectConfig} from 'polymer-project-config';
+import {ProjectConfig} from 'prax-project-config';
 import * as sinon from 'sinon';
 import {Writable} from 'stream';
 

@@ -16,7 +16,7 @@ const check = new Promise((resolve, reject) => {
           // TODO(rictic): remove these
           'mz',
           'multipipe',
-          'polymer-bundler',
+          'prax-bundler',
           'parse5',
           'dom5',
           '@babel/traverse',

@@ -15,7 +15,7 @@
 import * as path from 'path';
 import * as logging from 'plylog';
 import {Analyzer, FsUrlResolver, PackageRelativeUrl, ResolvedUrl, Severity, UrlLoader, Warning, WarningFilter, WarningPrinter} from 'prax-analyzer';
-import {ProjectConfig} from 'polymer-project-config';
+import {ProjectConfig} from 'prax-project-config';
 import {PassThrough, Transform} from 'stream';
 import {src as vinylSrc} from 'vinyl-fs';
 

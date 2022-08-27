@@ -14,15 +14,15 @@
 
 import File = require('vinyl');
 import {ResolvedUrl} from 'prax-analyzer';
-import {Bundler, Options, BundleManifest, generateShellMergeStrategy} from 'polymer-bundler';
-import {ProjectConfig} from 'polymer-project-config';
+import {Bundler, Options, BundleManifest, generateShellMergeStrategy} from 'prax-bundler';
+import {ProjectConfig} from 'prax-project-config';
 
 import {BuildAnalyzer} from './analyzer';
 import {FileMapUrlLoader} from './file-map-url-loader';
 import {pathFromUrl, urlFromPath, LocalFsPath} from './path-transformers';
 import {AsyncTransformStream} from './streams';
 
-export {Options} from 'polymer-bundler';
+export {Options} from 'prax-bundler';
 
 export class BuildBundler extends AsyncTransformStream<File, File> {
   config: ProjectConfig;
