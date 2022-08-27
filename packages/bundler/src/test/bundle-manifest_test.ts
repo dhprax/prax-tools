@@ -14,7 +14,7 @@
 
 /// <reference path="../../node_modules/@types/node/index.d.ts" />
 import * as chai from 'chai';
-import {ResolvedUrl} from 'polymer-analyzer';
+import {ResolvedUrl} from 'prax-analyzer';
 
 import {Bundle, BundleManifest, composeStrategies, generateBundles, generateCountingSharedBundleUrlMapper, generateEagerMergeStrategy, generateMatchMergeStrategy, generateSharedBundleUrlMapper, generateSharedDepsMergeStrategy, generateShellMergeStrategy, mergeBundles, mergeSingleEntrypointSubBundles, TransitiveDependenciesMap} from '../bundle-manifest';
 import {resolvedUrl as r} from '../test/test-utils';

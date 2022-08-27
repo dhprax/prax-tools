@@ -11,7 +11,7 @@
  * subject to an additional IP rights grant found at
  * http://polymer.github.io/PATENTS.txt
  */
-import {Analyzer, InMemoryOverlayUrlLoader, PackageRelativeUrl, PackageUrlResolver, ResolvedUrl} from 'polymer-analyzer';
+import {Analyzer, InMemoryOverlayUrlLoader, PackageRelativeUrl, PackageUrlResolver, ResolvedUrl} from 'prax-analyzer';
 
 /**
  * Automatically left-justifies an indented multi-line template literal string

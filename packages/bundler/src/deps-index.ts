@@ -11,8 +11,8 @@
  * subject to an additional IP rights grant found at
  * http://polymer.github.io/PATENTS.txt
  */
-import {Analyzer, Document, Import, ResolvedUrl} from 'polymer-analyzer';
-import {ScriptTagImport} from 'polymer-analyzer/lib/html/html-script-tag';
+import {Analyzer, Document, Import, ResolvedUrl} from 'prax-analyzer';
+import {ScriptTagImport} from 'prax-analyzer/lib/html/html-script-tag';
 
 import {getAnalysisDocument} from './analyzer-utils';
 

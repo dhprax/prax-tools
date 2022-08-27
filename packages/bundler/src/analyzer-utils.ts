@@ -11,7 +11,7 @@
  * subject to an additional IP rights grant found at
  * http://polymer.github.io/PATENTS.txt
  */
-import {Analysis, Document, ParsedHtmlDocument, ParsedJavaScriptDocument} from 'polymer-analyzer';
+import {Analysis, Document, ParsedHtmlDocument, ParsedJavaScriptDocument} from 'prax-analyzer';
 
 export function getAnalysisDocument(analysis: Analysis, url: string): Document {
   const result = analysis.getDocument(url);

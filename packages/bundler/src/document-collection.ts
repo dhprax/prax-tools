@@ -13,7 +13,7 @@
  */
 import * as babel from 'babel-types';
 import {ASTNode} from 'parse5';
-import {ResolvedUrl} from 'polymer-analyzer';
+import {ResolvedUrl} from 'prax-analyzer';
 
 export interface BundledBaseDocument<Node> {
   ast: Node;

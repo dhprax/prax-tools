@@ -11,7 +11,7 @@
  * subject to an additional IP rights grant found at
  * http://polymer.github.io/PATENTS.txt
  */
-import {Analyzer, Document, ResolvedUrl} from 'polymer-analyzer';
+import {Analyzer, Document, ResolvedUrl} from 'prax-analyzer';
 
 import {getAnalysisDocument} from './analyzer-utils';
 import {AssignedBundle, BundleManifest} from './bundle-manifest';

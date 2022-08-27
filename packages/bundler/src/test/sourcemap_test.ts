@@ -16,7 +16,7 @@
 import * as chai from 'chai';
 import * as dom5 from 'dom5';
 import * as path from 'path';
-import {Analyzer, FsUrlLoader, FsUrlResolver, PackageRelativeUrl, ResolvedUrl} from 'polymer-analyzer';
+import {Analyzer, FsUrlLoader, FsUrlResolver, PackageRelativeUrl, ResolvedUrl} from 'prax-analyzer';
 import {MappingItem, RawSourceMap, SourceMapConsumer} from 'source-map';
 
 import {Bundler} from '../bundler';

@@ -14,8 +14,8 @@
 import traverse, {NodePath} from 'babel-traverse';
 import * as babel from 'babel-types';
 import * as clone from 'clone';
-import {Document, FileRelativeUrl, ResolvedUrl} from 'polymer-analyzer';
-import {Analysis} from 'polymer-analyzer';
+import {Document, FileRelativeUrl, ResolvedUrl} from 'prax-analyzer';
+import {Analysis} from 'prax-analyzer';
 import {rollup} from 'rollup';
 
 import {assertIsJsDocument, getAnalysisDocument} from './analyzer-utils';

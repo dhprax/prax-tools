@@ -12,7 +12,7 @@
  * http://polymer.github.io/PATENTS.txt
  */
 import * as path from 'path';
-import {FileRelativeUrl, ResolvedUrl} from 'polymer-analyzer';
+import {FileRelativeUrl, ResolvedUrl} from 'prax-analyzer';
 import * as url from 'url';
 import Uri from 'vscode-uri';
 

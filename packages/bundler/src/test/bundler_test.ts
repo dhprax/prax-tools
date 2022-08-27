@@ -17,7 +17,7 @@ import * as chai from 'chai';
 import * as dom5 from 'dom5';
 import * as fs from 'fs';
 import * as parse5 from 'parse5';
-import {Analyzer, AnalyzerOptions, FsUrlLoader, FsUrlResolver} from 'polymer-analyzer';
+import {Analyzer, AnalyzerOptions, FsUrlLoader, FsUrlResolver} from 'prax-analyzer';
 
 import {Bundle, generateShellMergeStrategy} from '../bundle-manifest';
 import {Bundler, Options as BundlerOptions} from '../bundler';

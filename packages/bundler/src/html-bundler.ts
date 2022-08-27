@@ -15,7 +15,7 @@
 import * as clone from 'clone';
 import * as dom5 from 'dom5';
 import {ASTNode, parseFragment, serialize, treeAdapters} from 'parse5';
-import {Document, FileRelativeUrl, ParsedHtmlDocument, ResolvedUrl} from 'polymer-analyzer';
+import {Document, FileRelativeUrl, ParsedHtmlDocument, ResolvedUrl} from 'prax-analyzer';
 import {parse as parseUrl} from 'url';
 
 import {assertIsHtmlDocument, assertIsJsDocument, getAnalysisDocument} from './analyzer-utils';

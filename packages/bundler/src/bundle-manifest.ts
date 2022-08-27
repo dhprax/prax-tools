@@ -14,7 +14,7 @@
 
 import * as assert from 'assert';
 import * as clone from 'clone';
-import {PackageRelativeUrl, ResolvedUrl, UrlResolver} from 'polymer-analyzer';
+import {PackageRelativeUrl, ResolvedUrl, UrlResolver} from 'prax-analyzer';
 
 import {getSuperBundleUrl} from './deps-index';
 import {getFileExtension} from './url-utils';

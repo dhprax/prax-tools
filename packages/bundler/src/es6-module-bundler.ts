@@ -13,7 +13,7 @@
  */
 import generate from 'babel-generator';
 import * as babel from 'babel-types';
-import {ResolvedUrl} from 'polymer-analyzer';
+import {ResolvedUrl} from 'prax-analyzer';
 
 import {assertIsJsDocument, getAnalysisDocument} from './analyzer-utils';
 import {AssignedBundle, BundleManifest} from './bundle-manifest';

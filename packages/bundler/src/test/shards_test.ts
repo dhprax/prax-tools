@@ -16,7 +16,7 @@
 import * as chai from 'chai';
 import * as dom5 from 'dom5';
 import * as parse5 from 'parse5';
-import {Analyzer, FsUrlLoader, FsUrlResolver, PackageRelativeUrl} from 'polymer-analyzer';
+import {Analyzer, FsUrlLoader, FsUrlResolver, PackageRelativeUrl} from 'prax-analyzer';
 
 import {generateSharedDepsMergeStrategy, generateShellMergeStrategy} from '../bundle-manifest';
 import {Bundler, BundleResult} from '../bundler';

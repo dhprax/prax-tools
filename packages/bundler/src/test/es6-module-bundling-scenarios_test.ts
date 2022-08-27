@@ -14,7 +14,7 @@
 
 /// <reference path="../../node_modules/@types/node/index.d.ts" />
 import {assert} from 'chai';
-import {PackageRelativeUrl} from 'polymer-analyzer';
+import {PackageRelativeUrl} from 'prax-analyzer';
 
 import {generateSharedDepsMergeStrategy, generateShellMergeStrategy} from '../bundle-manifest';
 import {Bundler} from '../bundler';

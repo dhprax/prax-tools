@@ -13,7 +13,7 @@
  */
 import * as chai from 'chai';
 import * as parse5 from 'parse5';
-import {Analyzer, FsUrlLoader, FsUrlResolver} from 'polymer-analyzer';
+import {Analyzer, FsUrlLoader, FsUrlResolver} from 'prax-analyzer';
 
 import {AssignedBundle, BundleManifest} from '../bundle-manifest';
 import {Bundler} from '../bundler';

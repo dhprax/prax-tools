@@ -15,7 +15,7 @@
 
 /// <reference path="../../node_modules/@types/node/index.d.ts" />
 import * as chai from 'chai';
-import {Analyzer, FsUrlLoader, FsUrlResolver, PackageRelativeUrl, ResolvedUrl} from 'polymer-analyzer';
+import {Analyzer, FsUrlLoader, FsUrlResolver, PackageRelativeUrl, ResolvedUrl} from 'prax-analyzer';
 
 import {buildDepsIndex} from '../deps-index';
 import {inMemoryAnalyzer} from './test-utils';

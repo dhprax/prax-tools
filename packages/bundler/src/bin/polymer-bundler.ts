@@ -18,7 +18,7 @@ import * as fs from 'fs';
 import * as mkdirp from 'mkdirp';
 import * as pathLib from 'path';
 import {Bundler} from '../bundler';
-import {Analyzer, FsUrlLoader, MultiUrlLoader, MultiUrlResolver, PackageRelativeUrl, FsUrlResolver, RedirectResolver, ResolvedUrl, UrlLoader, UrlResolver} from 'polymer-analyzer';
+import {Analyzer, FsUrlLoader, MultiUrlLoader, MultiUrlResolver, PackageRelativeUrl, FsUrlResolver, RedirectResolver, ResolvedUrl, UrlLoader, UrlResolver} from 'prax-analyzer';
 import {DocumentCollection} from '../document-collection';
 import {generateShellMergeStrategy, BundleManifest} from '../bundle-manifest';
 import {ensureTrailingSlash, getFileUrl, resolvePath} from '../url-utils';
