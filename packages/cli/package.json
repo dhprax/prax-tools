@@ -1,6 +1,6 @@
 {
   "name": "prax-cli",
-  "version": "2.2.1",
+  "version": "2.3.0",
   "description": "A commandline tool for Polymer projects",
   "homepage": "https://github.com/Polymer/tools/tree/master/packages/cli",
   "repository": "github:dhprax/prax-tools",
@@ -65,8 +65,8 @@
     "mz": "^2.6.0",
     "plylog": "^1.0.0",
     "prax-analyzer": "^4.0.5",
-    "prax-build": "^3.3.2",
-    "prax-bundler": "^5.0.2",
+    "prax-build": "^3.3.3",
+    "prax-bundler": "^5.0.3",
     "prax-linter": "^4.0.0",
     "prax-project-config": "^5.0.2",
     "request": "^2.72.0",
