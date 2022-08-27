@@ -15,7 +15,7 @@
 import * as dom5 from 'dom5/lib/index-next';
 import * as parse5 from 'parse5';
 import * as path from 'path';
-import {Analyzer, PackageRelativeUrl, ResolvedUrl, UrlResolver} from 'polymer-analyzer';
+import {Analyzer, PackageRelativeUrl, ResolvedUrl, UrlResolver} from 'prax-analyzer';
 import {ProjectConfig} from 'polymer-project-config';
 
 import File = require('vinyl');

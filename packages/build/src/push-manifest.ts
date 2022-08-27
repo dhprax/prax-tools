@@ -13,7 +13,7 @@
  */
 
 import * as path from 'path';
-import {Analyzer, FsUrlResolver, Import, PackageRelativeUrl, ResolvedUrl} from 'polymer-analyzer';
+import {Analyzer, FsUrlResolver, Import, PackageRelativeUrl, ResolvedUrl} from 'prax-analyzer';
 import {buildDepsIndex} from 'polymer-bundler/lib/deps-index';
 import {ProjectConfig} from 'polymer-project-config';
 

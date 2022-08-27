@@ -14,7 +14,7 @@
 
 import {assert} from 'chai';
 import {join as pathJoin, sep as pathSeparator} from 'path';
-import {PackageRelativeUrl} from 'polymer-analyzer';
+import {PackageRelativeUrl} from 'prax-analyzer';
 import {LocalFsPath, pathFromUrl, urlFromPath} from '../path-transformers';
 
 const WindowsRootPath = 'C:\\Users\\TEST_USER\\TEST_ROOT' as LocalFsPath;

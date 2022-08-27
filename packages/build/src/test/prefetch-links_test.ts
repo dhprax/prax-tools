@@ -10,7 +10,7 @@
  */
 
 import {assert} from 'chai';
-import {FsUrlResolver, PackageRelativeUrl} from 'polymer-analyzer';
+import {FsUrlResolver, PackageRelativeUrl} from 'prax-analyzer';
 
 import {PolymerProject} from '../polymer-project';
 import {createLinks} from '../prefetch-links';

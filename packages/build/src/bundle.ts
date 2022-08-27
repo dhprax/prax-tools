@@ -13,7 +13,7 @@
  */
 
 import File = require('vinyl');
-import {ResolvedUrl} from 'polymer-analyzer';
+import {ResolvedUrl} from 'prax-analyzer';
 import {Bundler, Options, BundleManifest, generateShellMergeStrategy} from 'polymer-bundler';
 import {ProjectConfig} from 'polymer-project-config';
 

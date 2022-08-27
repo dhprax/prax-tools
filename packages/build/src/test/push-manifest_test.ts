@@ -14,7 +14,7 @@
 
 import {assert} from 'chai';
 import * as path from 'path';
-import {PackageRelativeUrl} from 'polymer-analyzer';
+import {PackageRelativeUrl} from 'prax-analyzer';
 import * as vfs from 'vinyl-fs';
 
 import File = require('vinyl');

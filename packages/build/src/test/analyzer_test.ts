@@ -22,7 +22,7 @@ import {Writable} from 'stream';
 import {getFlowingState} from './util';
 import {BuildAnalyzer} from '../analyzer';
 import {waitFor, waitForAll} from '../streams';
-import {PackageRelativeUrl} from 'polymer-analyzer';
+import {PackageRelativeUrl} from 'prax-analyzer';
 
 /**
  * Streams will remain paused unless something is listening for it's data.

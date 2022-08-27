@@ -13,7 +13,7 @@
  */
 
 import {assert} from 'chai';
-import {Analyzer, FsUrlLoader, FsUrlResolver, PackageRelativeUrl, ResolvedUrl} from 'polymer-analyzer';
+import {Analyzer, FsUrlLoader, FsUrlResolver, PackageRelativeUrl, ResolvedUrl} from 'prax-analyzer';
 import {Bundle} from 'polymer-bundler/lib/bundle-manifest';
 
 import File = require('vinyl');

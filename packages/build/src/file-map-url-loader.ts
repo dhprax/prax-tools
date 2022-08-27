@@ -12,7 +12,7 @@
  * http://polymer.github.io/PATENTS.txt
  */
 
-import {ResolvedUrl, UrlLoader} from 'polymer-analyzer';
+import {ResolvedUrl, UrlLoader} from 'prax-analyzer';
 
 import {getFileContents} from './streams';
 

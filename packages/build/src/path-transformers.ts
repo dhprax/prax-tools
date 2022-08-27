@@ -51,7 +51,7 @@
  */
 
 import * as path from 'path';
-import {PackageRelativeUrl} from 'polymer-analyzer';
+import {PackageRelativeUrl} from 'prax-analyzer';
 
 export declare class LocalFsPathBrand {
   private LocalFsPathBrand: never;

@@ -13,7 +13,7 @@
  */
 
 import * as logging from 'plylog';
-import {PackageRelativeUrl} from 'polymer-analyzer';
+import {PackageRelativeUrl} from 'prax-analyzer';
 import {ProjectConfig, ProjectOptions} from 'polymer-project-config';
 import {src as vinylSrc} from 'vinyl-fs';
 
