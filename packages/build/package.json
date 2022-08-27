@@ -1,6 +1,6 @@
 {
   "name": "prax-build",
-  "version": "3.1.7",
+  "version": "3.1.8",
   "description": "A library of Gulp build tasks",
   "homepage": "https://github.com/Polymer/tools/tree/master/packages/build",
   "repository": "github:dhprax/prax-tools",
@@ -81,7 +81,7 @@
     "mz": "^2.6.0",
     "parse5": "^4.0.0",
     "plylog": "^1.0.0",
-    "polymer-analyzer": "^3.1.3",
+    "prax-analyzer": "^4.0.0",
     "polymer-bundler": "^4.0.9",
     "polymer-project-config": "^4.0.3",
     "regenerator-runtime": "^0.11.1",
