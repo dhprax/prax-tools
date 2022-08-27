@@ -18,7 +18,7 @@
 import * as commandLineArgs from 'command-line-args';
 import {sep as pathSeperator} from 'path';
 import * as logging from 'plylog';
-import {ProjectConfig, ProjectOptions} from 'polymer-project-config';
+import {ProjectConfig, ProjectOptions} from 'prax-project-config';
 
 import {globalArguments, mergeArguments} from './args';
 import {AnalyzeCommand} from './commands/analyze';
@@ -174,11 +174,15 @@ export class PolymerCli {
       // Polymer CLI needs a valid command name to do anything. If the given
       // command is invalid, run the generalized help command with default
       // config. This should print the general usage information.
+      // @ts-expect-error
       if (error.name === 'INVALID_COMMAND') {
+        // @ts-expect-error
         if (error.command) {
+          // @ts-expect-error
           logger.warn(`'${error.command}' is not an available command.`);
         }
         return helpCommand.run(
+            // @ts-expect-error
             {command: error.command},
             new ProjectConfig(this.defaultConfigOptions));
       }

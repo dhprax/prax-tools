@@ -19,6 +19,7 @@ export async function invertPromise(p: Promise<{}|null|undefined|void>):
   try {
     result = await p;
   } catch (e) {
+    // @ts-expect-error
     return e;
   }
   throw new Error(`Expected an error, got ${result}`);

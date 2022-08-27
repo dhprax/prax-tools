@@ -11,8 +11,8 @@
  * subject to an additional IP rights grant found at
  * http://polymer.github.io/PATENTS.txt
  */
-import {ProjectBuildOptions, ProjectConfig} from 'polymer-project-config';
-import {ServerOptions} from 'prax-polyserve/lib/start_server';
+import {ProjectBuildOptions, ProjectConfig} from 'prax-project-config';
+import {ServerOptions} from 'polyserve/lib/start_server';
 
 export interface Environment {
   serve(options: ServerOptions): Promise<void>;

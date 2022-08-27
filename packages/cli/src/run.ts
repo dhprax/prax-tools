@@ -38,7 +38,9 @@ updateNotifier({pkg: packageJson}).notify();
     }
   } catch (err) {
     logger.error('cli runtime exception: ' + err);
+    // @ts-expect-error
     if (err.stack) {
+      // @ts-expect-error
       logger.error(err.stack);
     }
     process.exit(1);

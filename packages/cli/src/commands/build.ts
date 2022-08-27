@@ -16,7 +16,7 @@
 // in the run method in order to minimize startup time from loading unused code.
 
 import * as logging from 'plylog';
-import {applyBuildPreset, ProjectBuildOptions, ProjectConfig} from 'polymer-project-config';
+import {applyBuildPreset, ProjectBuildOptions, ProjectConfig} from 'prax-project-config';
 
 import {dashToCamelCase} from '../util';
 

@@ -148,11 +148,13 @@ function getGeneratorMeta(
       description = meta.description || description;
       name = meta.name || name;
     } catch (error) {
+      // @ts-expect-error
       if (error.message === 'not found') {
         logger.debug('no package.json found for generator');
       } else {
         logger.debug('unable to read/parse package.json for generator', {
           generator: defaultName,
+           // @ts-expect-error
           err: error.message,
         });
       }
@@ -199,6 +201,7 @@ async function createYeomanEnvironment() {
     env.registerStub(generatorInfo.generator, generatorInfo.id);
   });
   await new Promise((resolve, reject) => {
+    // @ts-expect-error
     env.lookup((error?: Error) => error ? reject(error) : resolve());
   });
   return env;

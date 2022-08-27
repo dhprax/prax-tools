@@ -21,7 +21,7 @@ import mergeStream = require('merge-stream');
 import {forkStream, PolymerProject, addServiceWorker, SWConfig, HtmlSplitter} from 'prax-build';
 
 import {getOptimizeStreams} from 'prax-build';
-import {ProjectBuildOptions} from 'polymer-project-config';
+import {ProjectBuildOptions} from 'prax-project-config';
 import {waitFor, pipeStreams} from './streams';
 import {loadServiceWorkerConfig} from './load-config';
 import {LocalFsPath} from 'prax-build/lib/path-transformers';

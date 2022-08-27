@@ -10,7 +10,7 @@ const check = new Promise((resolve, reject) => {
           '@types/*',
           'vinyl',
           'babel-plugin-external-helpers',
-          'polymer-bundler',
+          'prax-bundler',
         ],
         ignoreDirs: [
           'templates',

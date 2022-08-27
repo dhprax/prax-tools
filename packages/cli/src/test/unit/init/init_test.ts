@@ -186,6 +186,7 @@ suite('init', () => {
       try {
         await polymerInit.promptGeneratorSelection({env: yeomanEnvMock});
       } catch (error) {
+        // @ts-expect-error
         assert.equal(error.message, 'Template TEST not found');
       }
       assert.isTrue(promptStub.calledOnce);
@@ -203,6 +204,7 @@ suite('init', () => {
       try {
         await polymerInit.promptGeneratorSelection({env: yeomanEnvMock});
       } catch (error) {
+        // @ts-expect-error
         assert.equal(error.message, 'Template TEST not found');
       }
       const choices =
@@ -240,6 +242,7 @@ suite('init', () => {
       try {
         await polymerInit.promptGeneratorSelection({env: yeomanEnv});
       } catch (error) {
+        // @ts-expect-error
         assert.equal(error.message, 'Template TEST not found');
       }
       assert.isTrue(promptStub.calledOnce);
@@ -261,6 +264,7 @@ suite('init', () => {
       try {
         await polymerInit.promptGeneratorSelection({env: yeomanEnvMock});
       } catch (error) {
+        // @ts-expect-error
         assert.equal(error.message, 'Template TEST not found');
       }
       assert.isTrue(promptStub.calledOnce);
@@ -280,6 +284,7 @@ suite('init', () => {
         try {
           await polymerInit.promptGeneratorSelection({env: yeomanEnvMock});
         } catch (error) {
+        // @ts-expect-error
           assert.equal(error.message, 'Template TEST not found');
         }
         assert.isTrue(promptStub.calledOnce);

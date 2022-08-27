@@ -12,9 +12,9 @@
  * http://polymer.github.io/PATENTS.txt
  */
 
-import {AnalysisFormat, generateAnalysis} from 'polymer-analyzer';
-import {Feature} from 'polymer-analyzer/lib/model/model';
-import {ProjectConfig} from 'polymer-project-config';
+import {AnalysisFormat, generateAnalysis} from 'prax-analyzer';
+import {Feature} from 'prax-analyzer/lib/model/model';
+import {ProjectConfig} from 'prax-project-config';
 import {getProjectSources} from '../util';
 
 export async function analyze(config: ProjectConfig, inputs: string[]):

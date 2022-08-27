@@ -19,7 +19,7 @@ import * as fs from 'fs';
 import * as inquirer from 'inquirer';
 import {execSync} from 'mz/child_process';
 import * as path from 'path';
-import {ProjectConfig} from 'polymer-project-config';
+import {ProjectConfig} from 'prax-project-config';
 
 /**
  * Check if the current shell environment is MinGW. MinGW can't handle some

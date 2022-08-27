@@ -17,7 +17,7 @@
 
 import {ArgDescriptor} from 'command-line-args';
 import {UsageGroup} from 'command-line-usage';
-import {ProjectConfig} from 'polymer-project-config';
+import {ProjectConfig} from 'prax-project-config';
 
 import {Command} from './command';
 
@@ -108,7 +108,7 @@ export class LintCommand implements Command {
   }
 
   async extraUsageGroups(config: ProjectConfig): Promise<UsageGroup[]> {
-    const lintLib = await import('polymer-linter');
+    const lintLib = await import('prax-linter');
     const {default: chalk} = await import('chalk');
     this._loadPlugins(config);
     const collectionsDocs = [];

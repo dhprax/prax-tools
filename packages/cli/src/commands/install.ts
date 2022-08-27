@@ -15,7 +15,7 @@
 // Be careful with these imports. As many as possible should be dynamic imports
 // in the run method in order to minimize startup time from loading unused code.
 
-import {ProjectConfig} from 'polymer-project-config';
+import {ProjectConfig} from 'prax-project-config';
 
 import {Command, CommandOptions} from './command';
 

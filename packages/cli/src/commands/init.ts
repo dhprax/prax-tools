@@ -17,7 +17,7 @@
 
 import {ArgDescriptor} from 'command-line-args';
 import * as logging from 'plylog';
-import {ProjectConfig} from 'polymer-project-config';
+import {ProjectConfig} from 'prax-project-config';
 
 import {Command, CommandOptions} from './command';
 

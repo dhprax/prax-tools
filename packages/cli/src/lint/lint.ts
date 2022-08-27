@@ -17,11 +17,11 @@ import * as chokidar from 'chokidar';
 import * as fs from 'mz/fs';
 import * as path from 'path';
 import * as logging from 'plylog';
-import {Analysis, Analyzer, applyEdits, Edit, EditAction, FsUrlLoader, makeParseLoader, ResolvedUrl, Severity, UrlResolver, Warning} from 'polymer-analyzer';
-import {WarningFilter} from 'polymer-analyzer/lib/warning/warning-filter';
-import {WarningPrinter} from 'polymer-analyzer/lib/warning/warning-printer';
-import * as lintLib from 'polymer-linter';
-import {ProjectConfig} from 'polymer-project-config';
+import {Analysis, Analyzer, applyEdits, Edit, EditAction, FsUrlLoader, makeParseLoader, ResolvedUrl, Severity, UrlResolver, Warning} from 'prax-analyzer';
+import {WarningFilter} from 'prax-analyzer/lib/warning/warning-filter';
+import {WarningPrinter} from 'prax-analyzer/lib/warning/warning-printer';
+import * as lintLib from 'prax-linter';
+import {ProjectConfig} from 'prax-project-config';
 
 import {CommandResult} from '../commands/command';
 import {Options} from '../commands/lint';
@@ -229,14 +229,17 @@ class FilesystemChangeStream implements AsyncIterable<Set<string>> {
   ensureChangeIsNoticed(path: string) {
     if (!this.outOfBandNotices) {
       const notices = new Set();
+      // @ts-expect-error
       this.outOfBandNotices = notices;
       setTimeout(() => {
         for (const path of notices) {
+          // @ts-expect-error
           this.noticeChange(path);
         }
         this.outOfBandNotices = undefined;
       }, 100);
     }
+    // @ts-expect-error
     this.outOfBandNotices.add(path);
   }
 
@@ -260,6 +263,7 @@ class FilesystemChangeStream implements AsyncIterable<Set<string>> {
         yield batch;
       } else {
         const waitingPromise = new Promise((resolve) => {
+          // @ts-expect-error
           this.alertWaiter = resolve;
         });
         await waitingPromise;
