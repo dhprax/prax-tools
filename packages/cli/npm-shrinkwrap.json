@@ -1,12 +1,12 @@
 {
   "name": "prax-cli",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "lockfileVersion": 2,
   "requires": true,
   "packages": {
     "": {
       "name": "prax-cli",
-      "version": "2.2.0",
+      "version": "2.2.1",
       "license": "BSD-3-Clause",
       "dependencies": {
         "@octokit/rest": "^16.2.0",
@@ -42,8 +42,8 @@
         "merge-stream": "^1.0.1",
         "mz": "^2.6.0",
         "plylog": "^1.0.0",
-        "prax-analyzer": "^4.0.4",
-        "prax-build": "^3.3.1",
+        "prax-analyzer": "^4.0.5",
+        "prax-build": "^3.3.2",
         "prax-bundler": "^5.0.2",
         "prax-linter": "^4.0.0",
         "prax-project-config": "^5.0.2",
@@ -13100,9 +13100,9 @@
       }
     },
     "node_modules/prax-analyzer": {
-      "version": "4.0.4",
-      "resolved": "https://registry.npmjs.org/prax-analyzer/-/prax-analyzer-4.0.4.tgz",
-      "integrity": "sha512-quTOHjCYtWzuqA4pGvNyuCbkYs4CAQnLjqt/p6kn9+MBnRGyW3bjlyq8qphDWITtT2qspXr41Z2Es3tUv0AcMQ==",
+      "version": "4.0.5",
+      "resolved": "https://registry.npmjs.org/prax-analyzer/-/prax-analyzer-4.0.5.tgz",
+      "integrity": "sha512-WuAwC1hK2hAwkBk5l7oNVbxqIsnenu+5trsyUx3PrvWNRjTsTzOwimAJ4Mn1bYB6950Z/vaCgXyJRuC8jviV7Q==",
       "dependencies": {
         "@babel/generator": "^7.0.0-beta.42",
         "@babel/traverse": "^7.0.0-beta.42",
@@ -13218,9 +13218,9 @@
       }
     },
     "node_modules/prax-build": {
-      "version": "3.3.1",
-      "resolved": "https://registry.npmjs.org/prax-build/-/prax-build-3.3.1.tgz",
-      "integrity": "sha512-WZIqA8kCn8fALAFFhgVS2Tl2LbMNadpXj01tOADZaxC5Wm0wI+H7gGLAX+MVMyaLVkT9HVeZYLZWJOKAbZr3XQ==",
+      "version": "3.3.2",
+      "resolved": "https://registry.npmjs.org/prax-build/-/prax-build-3.3.2.tgz",
+      "integrity": "sha512-xBe8vI/1nj/YpQUcTRJloAP+2jd5yQJABtTdddPvJFP5SHS3N2ejm08cwL7mT21ggn2yaOcSmFZscwJQGplONw==",
       "dependencies": {
         "@babel/core": "^7.0.0",
         "@babel/plugin-external-helpers": "^7.0.0",
@@ -13283,7 +13283,7 @@
         "mz": "^2.6.0",
         "parse5": "^4.0.0",
         "plylog": "^1.0.0",
-        "prax-analyzer": "^4.0.4",
+        "prax-analyzer": "^4.0.5",
         "prax-bundler": "^5.0.2",
         "prax-project-config": "^5.0.2",
         "regenerator-runtime": "^0.11.1",
@@ -30726,9 +30726,9 @@
       "integrity": "sha1-AerA/jta9xoqbAL+q7jB/vfgDqs="
     },
     "prax-analyzer": {
-      "version": "4.0.4",
-      "resolved": "https://registry.npmjs.org/prax-analyzer/-/prax-analyzer-4.0.4.tgz",
-      "integrity": "sha512-quTOHjCYtWzuqA4pGvNyuCbkYs4CAQnLjqt/p6kn9+MBnRGyW3bjlyq8qphDWITtT2qspXr41Z2Es3tUv0AcMQ==",
+      "version": "4.0.5",
+      "resolved": "https://registry.npmjs.org/prax-analyzer/-/prax-analyzer-4.0.5.tgz",
+      "integrity": "sha512-WuAwC1hK2hAwkBk5l7oNVbxqIsnenu+5trsyUx3PrvWNRjTsTzOwimAJ4Mn1bYB6950Z/vaCgXyJRuC8jviV7Q==",
       "requires": {
         "@babel/generator": "^7.0.0-beta.42",
         "@babel/traverse": "^7.0.0-beta.42",
@@ -30822,9 +30822,9 @@
       }
     },
     "prax-build": {
-      "version": "3.3.1",
-      "resolved": "https://registry.npmjs.org/prax-build/-/prax-build-3.3.1.tgz",
-      "integrity": "sha512-WZIqA8kCn8fALAFFhgVS2Tl2LbMNadpXj01tOADZaxC5Wm0wI+H7gGLAX+MVMyaLVkT9HVeZYLZWJOKAbZr3XQ==",
+      "version": "3.3.2",
+      "resolved": "https://registry.npmjs.org/prax-build/-/prax-build-3.3.2.tgz",
+      "integrity": "sha512-xBe8vI/1nj/YpQUcTRJloAP+2jd5yQJABtTdddPvJFP5SHS3N2ejm08cwL7mT21ggn2yaOcSmFZscwJQGplONw==",
       "requires": {
         "@babel/core": "^7.0.0",
         "@babel/plugin-external-helpers": "^7.0.0",
@@ -30887,7 +30887,7 @@
         "mz": "^2.6.0",
         "parse5": "^4.0.0",
         "plylog": "^1.0.0",
-        "prax-analyzer": "^4.0.4",
+        "prax-analyzer": "^4.0.5",
         "prax-bundler": "^5.0.2",
         "prax-project-config": "^5.0.2",
         "regenerator-runtime": "^0.11.1",
