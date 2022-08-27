@@ -40,6 +40,7 @@ const baseParseOptions: babylon.BabylonOptions = {
     'objectRestSpread',
     'optionalChaining',
     'classProperties',
+    'nullishCoalescingOperator',
   ],
 };
 
