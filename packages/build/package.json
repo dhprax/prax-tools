@@ -1,6 +1,6 @@
 {
   "name": "prax-build",
-  "version": "3.2.0",
+  "version": "3.2.1",
   "description": "A library of Gulp build tasks",
   "homepage": "https://github.com/Polymer/tools/tree/master/packages/build",
   "repository": "github:dhprax/prax-tools",

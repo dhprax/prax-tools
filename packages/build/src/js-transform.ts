@@ -109,7 +109,7 @@ const babelSyntaxPlugins = [
   // require('@babel/plugin-syntax-export-extensions'),
   require('@babel/plugin-syntax-dynamic-import'),
   require('@babel/plugin-syntax-import-meta'),
-  require('@babel/plugin-proposal-class-properties')
+  // require('@babel/plugin-proposal-class-properties')
 ];
 
 const babelPresetMinify = require('babel-preset-minify')({}, {

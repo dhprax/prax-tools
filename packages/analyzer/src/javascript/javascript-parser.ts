@@ -38,7 +38,7 @@ const baseParseOptions: babylon.BabylonOptions = {
     // tslint:disable-next-line: no-any Remove this once typings updated.
     'importMeta' as any,
     'objectRestSpread',
-    // 'classProperties',
+    'classProperties',
   ],
 };
 
