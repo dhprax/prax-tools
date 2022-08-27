@@ -14,8 +14,8 @@
 
 import {assert} from 'chai';
 import * as path from 'path';
-import {Analyzer, Document, Severity, Warning} from 'polymer-analyzer';
-import {ProjectConfig} from 'polymer-project-config';
+import {Analyzer, Document, Severity, Warning} from 'prax-analyzer';
+import {ProjectConfig} from 'prax-project-config';
 
 import {Linter} from '../linter';
 import {Rule} from '../rule';

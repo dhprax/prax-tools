@@ -13,7 +13,7 @@
  */
 
 import {assert} from 'chai';
-import {Analyzer, applyEdits, EditResult, makeParseLoader, Warning} from 'polymer-analyzer';
+import {Analyzer, applyEdits, EditResult, makeParseLoader, Warning} from 'prax-analyzer';
 
 import {Linter} from '../linter';
 

@@ -14,7 +14,7 @@
 
 import * as dom5 from 'dom5/lib/index-next';
 import {treeAdapters} from 'parse5';
-import {Document, Edit, ParsedHtmlDocument, Severity, Warning} from 'polymer-analyzer';
+import {Document, Edit, ParsedHtmlDocument, Severity, Warning} from 'prax-analyzer';
 
 import {HtmlRule} from '../../html/rule';
 import {addAttribute, elementSelectorToPredicate, getIndentationInside, prependContentInto} from '../../html/util';

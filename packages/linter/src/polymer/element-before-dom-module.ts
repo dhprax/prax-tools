@@ -11,7 +11,7 @@
  * subject to an additional IP rights grant found at
  * http://polymer.github.io/PATENTS.txt
  */
-import {comparePositionAndRange, Document, DomModule, ParsedHtmlDocument, Severity, Warning} from 'polymer-analyzer';
+import {comparePositionAndRange, Document, DomModule, ParsedHtmlDocument, Severity, Warning} from 'prax-analyzer';
 
 import {HtmlRule} from '../html/rule';
 import {registry} from '../registry';

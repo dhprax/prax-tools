@@ -13,7 +13,7 @@
  */
 
 import * as dom5 from 'dom5/lib/index-next';
-import {AttributeDatabindingExpression, Document, isPositionInsideRange, ParsedHtmlDocument, PolymerDatabindingExpression as DatabindingExpression, Severity, SourceRange, Warning} from 'polymer-analyzer';
+import {AttributeDatabindingExpression, Document, isPositionInsideRange, ParsedHtmlDocument, PolymerDatabindingExpression as DatabindingExpression, Severity, SourceRange, Warning} from 'prax-analyzer';
 
 import {HtmlRule} from '../html/rule';
 import {sharedProperties} from '../html/util';

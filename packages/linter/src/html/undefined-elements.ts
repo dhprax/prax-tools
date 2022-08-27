@@ -12,7 +12,7 @@
  * http://polymer.github.io/PATENTS.txt
  */
 
-import {Document, ParsedHtmlDocument, Severity, Warning} from 'polymer-analyzer';
+import {Document, ParsedHtmlDocument, Severity, Warning} from 'prax-analyzer';
 
 import {registry} from '../registry';
 import {stripIndentation} from '../util';

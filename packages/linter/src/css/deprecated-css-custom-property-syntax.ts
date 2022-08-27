@@ -12,7 +12,7 @@
  * http://polymer.github.io/PATENTS.txt
  */
 
-import {Document, ParsedCssDocument, Severity, Warning} from 'polymer-analyzer';
+import {Document, ParsedCssDocument, Severity, Warning} from 'prax-analyzer';
 import * as shady from 'shady-css-parser';
 
 import {CssRule} from '../css/rule';

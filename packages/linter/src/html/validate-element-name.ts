@@ -14,7 +14,7 @@
 
 import babelTraverse from 'babel-traverse';
 import * as babel from 'babel-types';
-import {Document, Severity, Warning} from 'polymer-analyzer';
+import {Document, Severity, Warning} from 'prax-analyzer';
 
 import {registry} from '../registry';
 import {Rule} from '../rule';

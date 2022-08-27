@@ -15,7 +15,7 @@
 import * as clone from 'clone';
 import * as dom5 from 'dom5/lib/index-next';
 import * as parse5 from 'parse5';
-import {Document, ParsedHtmlDocument, Replacement, Severity, Warning} from 'polymer-analyzer';
+import {Document, ParsedHtmlDocument, Replacement, Severity, Warning} from 'prax-analyzer';
 
 import {registry} from '../registry';
 import {stripIndentation} from '../util';

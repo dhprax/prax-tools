@@ -15,7 +15,7 @@
 
 import * as dom5 from 'dom5/lib/index-next';
 import {treeAdapters} from 'parse5';
-import {Document, Element, ParsedHtmlDocument, Replacement, Severity, Slot, Warning} from 'polymer-analyzer';
+import {Document, Element, ParsedHtmlDocument, Replacement, Severity, Slot, Warning} from 'prax-analyzer';
 
 import {HtmlRule} from '../html/rule';
 import {elementSelectorToPredicate} from '../html/util';

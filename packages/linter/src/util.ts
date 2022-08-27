@@ -13,7 +13,7 @@
  */
 
 import * as levenshtein from 'fast-levenshtein';
-import {Document, isPositionInsideRange, ParsedDocument, Replacement, SourceRange} from 'polymer-analyzer';
+import {Document, isPositionInsideRange, ParsedDocument, Replacement, SourceRange} from 'prax-analyzer';
 
 import stripIndent = require('strip-indent');
 

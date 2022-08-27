@@ -14,7 +14,7 @@
 
 import * as dom5 from 'dom5/lib/index-next';
 import * as parse5 from 'parse5';
-import {Document, isPositionInsideRange, ParsedCssDocument, ParsedHtmlDocument, Replacement, Severity, Warning} from 'polymer-analyzer';
+import {Document, isPositionInsideRange, ParsedCssDocument, ParsedHtmlDocument, Replacement, Severity, Warning} from 'prax-analyzer';
 import * as shady from 'shady-css-parser';
 
 import {HtmlRule} from '../html/rule';

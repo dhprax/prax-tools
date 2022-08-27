@@ -13,7 +13,7 @@
  */
 
 import * as dom5 from 'dom5/lib/index-next';
-import {ParsedHtmlDocument, Replacement, Severity, Warning} from 'polymer-analyzer';
+import {ParsedHtmlDocument, Replacement, Severity, Warning} from 'prax-analyzer';
 
 import {registry} from '../registry';
 import {stripIndentation, stripWhitespace} from '../util';

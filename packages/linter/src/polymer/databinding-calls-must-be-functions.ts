@@ -12,7 +12,7 @@
  * http://polymer.github.io/PATENTS.txt
  */
 
-import {Document, Severity, Warning} from 'polymer-analyzer';
+import {Document, Severity, Warning} from 'prax-analyzer';
 
 import {registry} from '../registry';
 import {Rule} from '../rule';

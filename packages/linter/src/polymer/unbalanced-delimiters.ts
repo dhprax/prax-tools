@@ -14,7 +14,7 @@
 
 import * as dom5 from 'dom5/lib/index-next';
 import * as parse5 from 'parse5';
-import {ParsedHtmlDocument, Severity, Warning} from 'polymer-analyzer';
+import {ParsedHtmlDocument, Severity, Warning} from 'prax-analyzer';
 
 import {HtmlRule} from '../html/rule';
 import {registry} from '../registry';

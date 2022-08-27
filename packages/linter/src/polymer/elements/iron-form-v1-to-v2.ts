@@ -13,7 +13,7 @@
  */
 
 import * as dom5 from 'dom5/lib/index-next';
-import {Document, ParsedHtmlDocument, Replacement, Severity, Warning} from 'polymer-analyzer';
+import {Document, ParsedHtmlDocument, Replacement, Severity, Warning} from 'prax-analyzer';
 
 import {HtmlRule} from '../../html/rule';
 import {getIndentationInside} from '../../html/util';

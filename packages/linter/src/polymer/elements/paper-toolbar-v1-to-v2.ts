@@ -18,7 +18,7 @@ import stripIndent = require('strip-indent');
 
 import {registry} from '../../registry';
 import {HtmlRule} from '../../html/rule';
-import {ParsedHtmlDocument, Severity, Warning} from 'polymer-analyzer';
+import {ParsedHtmlDocument, Severity, Warning} from 'prax-analyzer';
 
 import {nodeIsTemplateExtension} from './utils';
 

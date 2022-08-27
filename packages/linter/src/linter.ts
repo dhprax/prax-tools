@@ -15,10 +15,10 @@
 import './collections';
 
 import {CancelToken} from 'cancel-token';
-import {Analysis, Analyzer, Document, ParsedDocument, ResolvedUrl, Severity, Warning, WarningCarryingException} from 'polymer-analyzer';
+import {Analysis, Analyzer, Document, ParsedDocument, ResolvedUrl, Severity, Warning, WarningCarryingException} from 'prax-analyzer';
 
-import {AnalyzeOptions} from 'polymer-analyzer/lib/core/analyzer';
-import {MinimalCancelToken} from 'polymer-analyzer/lib/core/cancel-token';
+import {AnalyzeOptions} from 'prax-analyzer/lib/core/analyzer';
+import {MinimalCancelToken} from 'prax-analyzer/lib/core/cancel-token';
 
 import {Rule} from './rule';
 

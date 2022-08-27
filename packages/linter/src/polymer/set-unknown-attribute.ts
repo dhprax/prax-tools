@@ -13,7 +13,7 @@
  */
 
 import * as dom5 from 'dom5/lib/index-next';
-import {Attribute, Document, Element, isPositionInsideRange, ParsedHtmlDocument, Property, Severity, Warning} from 'polymer-analyzer';
+import {Attribute, Document, Element, isPositionInsideRange, ParsedHtmlDocument, Property, Severity, Warning} from 'prax-analyzer';
 
 import {HtmlRule} from '../html/rule';
 import {sharedAttributes, sharedProperties} from '../html/util';
