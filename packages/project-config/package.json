@@ -1,6 +1,6 @@
 {
   "name": "prax-project-config",
-  "version": "5.0.1",
+  "version": "5.0.2",
   "description": "reads, validates, and shapes your polymer.json project configuration",
   "homepage": "https://github.com/Polymer/tools/tree/master/packages/project-config",
   "repository": "github:dhprax/prax-tools",
@@ -25,7 +25,7 @@
     "winston": "^3.0.0"
   },
   "devDependencies": {
-    "prax-analyzer": "^4.0.3",
+    "prax-analyzer": "^4.0.4",
     "source-map-support": "^0.5.5"
   },
   "peerDependencies": {
