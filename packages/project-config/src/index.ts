@@ -19,7 +19,7 @@ import * as path from 'path';
 import * as logging from 'plylog';
 import {applyBuildPreset, isValidPreset, ProjectBuildOptions} from './builds';
 import minimatchAll = require('minimatch-all');
-import {FsUrlLoader, PackageUrlResolver, WarningFilter, Analyzer, Severity} from 'polymer-analyzer';
+import {FsUrlLoader, PackageUrlResolver, WarningFilter, Analyzer, Severity} from 'prax-analyzer';
 
 export {ProjectBuildOptions, JsCompileTarget, applyBuildPreset} from './builds';
 

@@ -1,10 +1,10 @@
 {
-  "name": "polymer-project-config",
-  "version": "4.0.3",
+  "name": "prax-project-config",
+  "version": "5.0.0",
   "description": "reads, validates, and shapes your polymer.json project configuration",
   "homepage": "https://github.com/Polymer/tools/tree/master/packages/project-config",
-  "repository": "github:Polymer/tools",
-  "bugs": "https://github.com/Polymer/tools/issues",
+  "repository": "github:dhprax/prax-tools",
+  "bugs": "https://github.com/dhprax/prax-tools/issues",
   "license": "BSD-3-Clause",
   "author": "The Polymer Project Authors",
   "main": "lib/index.js",
@@ -25,10 +25,10 @@
     "winston": "^3.0.0"
   },
   "devDependencies": {
-    "polymer-analyzer": "^3.0.1",
+    "prax-analyzer": "^4.0.1",
     "source-map-support": "^0.5.5"
   },
   "peerDependencies": {
-    "polymer-analyzer": "^3.0.1"
+    "prax-analyzer": "^4.0.1"
   }
 }
