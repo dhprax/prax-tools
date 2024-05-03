@@ -1,6 +1,6 @@
 {
   "name": "prax-linter",
-  "version": "4.0.0",
+  "version": "4.1.0",
   "description": "Lint Polymer!",
   "homepage": "https://github.com/Polymer/tools/tree/master/packages/linter",
   "repository": "github:dhprax/prax-tools",
@@ -53,6 +53,6 @@
     "linter"
   ],
   "engines": {
-    "node": ">=8"
+    "node": "<=20"
   }
 }
