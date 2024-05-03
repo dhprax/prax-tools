@@ -1,6 +1,6 @@
 {
   "name": "prax-analyzer",
-  "version": "4.0.5",
+  "version": "4.1.0",
   "description": "Static analysis for Web Components",
   "homepage": "https://github.com/Polymer/tools/tree/master/packages/analyzer",
   "repository": "github:dhprax/prax-tools",
@@ -85,6 +85,6 @@
     "whatwg-url": "^6.4.0"
   },
   "engines": {
-    "node": ">=8"
+    "node": "<=20"
   }
 }
