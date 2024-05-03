@@ -1,12 +1,12 @@
 {
   "name": "prax-cli",
-  "version": "2.3.0",
+  "version": "2.4.1",
   "lockfileVersion": 2,
   "requires": true,
   "packages": {
     "": {
       "name": "prax-cli",
-      "version": "2.3.0",
+      "version": "2.4.1",
       "license": "BSD-3-Clause",
       "dependencies": {
         "@octokit/rest": "^16.2.0",
@@ -85,7 +85,7 @@
         "yeoman-test": "^1.1.0"
       },
       "engines": {
-        "node": ">=8.0"
+        "node": "<=20"
       }
     },
     "node_modules/@babel/code-frame": {

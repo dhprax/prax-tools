@@ -1,6 +1,6 @@
 {
   "name": "prax-cli",
-  "version": "2.3.0",
+  "version": "2.4.1",
   "description": "A commandline tool for Polymer projects",
   "homepage": "https://github.com/Polymer/tools/tree/master/packages/cli",
   "repository": "github:dhprax/prax-tools",
@@ -9,7 +9,7 @@
   "author": "The Polymer Project Authors",
   "main": "lib/polymer-cli.js",
   "engines": {
-    "node": ">=8.0"
+    "node": "<=20"
   },
   "bin": {
     "polymer": "bin/polymer.js"
